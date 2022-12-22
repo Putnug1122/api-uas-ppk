@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `handyman_service`
+-- Database: `deta_service`
 --
 
 -- --------------------------------------------------------
@@ -70,7 +70,7 @@ CREATE TABLE `app_settings` (
 --
 
 INSERT INTO `app_settings` (`id`, `site_name`, `site_email`, `site_logo`, `site_favicon`, `site_description`, `site_copyright`, `facebook_url`, `instagram_url`, `twitter_url`, `linkedin_url`, `remember_token`, `language_option`, `inquriy_email`, `helpline_number`, `time_zone`, `earning_type`, `youtube_url`) VALUES
-(1, 'Handyman Service', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[\"nl\",\"fr\",\"it\",\"pt\",\"es\",\"en\"]', NULL, NULL, NULL, NULL, NULL);
+(1, 'Deta Service', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[\"nl\",\"fr\",\"it\",\"pt\",\"es\",\"en\"]', NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
